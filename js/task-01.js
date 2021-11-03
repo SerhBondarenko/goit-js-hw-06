@@ -1,6 +1,4 @@
 
-//const body = document.body;//
-//console.log(body);//
 
 const list = document.querySelector('#categories');
 //console.log(list);//

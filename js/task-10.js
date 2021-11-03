@@ -7,14 +7,6 @@ const linkBtnDectroy =document.querySelector('[data-destroy]')
 const linkBoxes =document.querySelector('#boxes')
 const linkControls = document.querySelector('#controls')
 
-console.log(linkInput)
-console.log(linkBtnCreate)
-console.log(linkBtnDectroy)
-console.log(linkBoxes)
-console.log(linkControls)
-
-
-
 function createBoxes(amount) {
   let width = 30;
   let height = 30;
@@ -29,18 +21,14 @@ function createBoxes(amount) {
 	height += 10;
   linkBoxes.append(navLinkDiv);
   console.log(navLinkDiv) 
-
   }
-  
-} 
+};
 
 //создание div
 linkBtnCreate.addEventListener("click", (event) => {
   const numBoxes = Number(linkInput.value);
-	createBoxes(numBoxes);
-  
+	createBoxes(numBoxes); 
 });
-
 
 //удаление div
 function destroyBoxes() {

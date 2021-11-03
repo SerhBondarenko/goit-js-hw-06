@@ -13,7 +13,6 @@ const images = [
   },
 ];
 
-
 const galleryList = document.querySelector(".gallery");
 
 images.forEach(image =>{
