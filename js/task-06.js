@@ -7,4 +7,5 @@ inputValidation.addEventListener("blur", (event) => {
         inputValidation.classList.add('valid');
     }
     else { inputValidation.classList.add('invalid') }
-}) // console.log(inputValidation)
+})
+// console.log(inputValidation)
