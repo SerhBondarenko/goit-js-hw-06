@@ -1,5 +1,4 @@
 
-
 const list = document.querySelector('#categories');
 //console.log(list);//
 
@@ -14,4 +13,6 @@ console.log('Category:', element.firstElementChild.textContent);
 console.log('Elements:', element.childNodes[3].children.length);
 
 });
+
+
 
